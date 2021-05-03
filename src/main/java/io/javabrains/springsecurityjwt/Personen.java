@@ -4,6 +4,7 @@ public class Personen {
 
     private String name;
     private String nachname;
+    private String adresse;
 
     public Personen(String name, String nachname) {
         this.name = name;
@@ -24,5 +25,13 @@ public class Personen {
 
     public void setNachname(String nachname) {
         this.nachname = nachname;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
     }
 }
