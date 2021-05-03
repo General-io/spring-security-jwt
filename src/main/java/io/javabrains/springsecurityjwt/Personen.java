@@ -1,10 +1,13 @@
 package io.javabrains.springsecurityjwt;
 
+import java.util.Date;
+
 public class Personen {
 
     private String name;
     private String nachname;
     private String adresse;
+    private Date date;
 
     public Personen(String name, String nachname) {
         this.name = name;
